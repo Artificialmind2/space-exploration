@@ -1,0 +1,47 @@
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+
+body {
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+}
+
+#hero {
+    background-image: url("Scifi.gif");
+    background-size: cover;
+    padding:10px 0px 40px 0px;
+}
+
+.naslov {
+    text-align: center;
+    /* font-family: Corleone; */
+}
+
+.btn {
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    border-radius: 10px
+}
+
+.cta {
+    color: aquamarine;
+    border: 2px solid yellowgreen;
+    padding: 5px 10px;
+    background: blue;
+}
+
+.cts {
+    /* text-decoration: underline;*/
+    border-bottom: 2px solid red;
+}
+
+#logo {
+    height: 10%;
+    padding: 20px;
+}
